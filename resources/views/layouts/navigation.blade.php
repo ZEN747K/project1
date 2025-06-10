@@ -18,6 +18,9 @@
                     <x-nav-link :href="route('dashboard2')" :active="request()->routeIs('dashboard2')">
                         {{ __('Map') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('dashboard3')" :active="request()->routeIs('dashboard3')">
+                        {{ __('Map_API') }}
+                    </x-nav-link>
                 </div>
             </div>
 
